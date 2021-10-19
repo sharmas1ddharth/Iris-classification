@@ -28,22 +28,17 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">project_title</h3>
+<h3 align="center">Iris Classification</h3>
 
   <p align="center">
-    project_description
+    A Machine Learning Model that can classify the species of the Iris flower whether its Iris-Setosa, Iris-Virsicolour, Iris-Virginica
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/sharmas1ddharth/Iris-classification">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/sharmas1ddharth/Iris-classification/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/sharmas1ddharth/Iris-classification/issues">Request Feature</a>
   </p>
 </div>
 
@@ -82,7 +77,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -95,6 +90,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [Scikit-learn](https://scikit-learn.org/)
 * [Numpy](https://numpy.org/)
 * [Matplotlib](https://matplotlib.org/)
+* [Seaborn](https://seaborn.pydata.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,23 +98,16 @@ Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
@@ -126,7 +115,6 @@ Project Organization
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
@@ -142,53 +130,52 @@ Project Organization
     │   │   └── train_model.py
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+           └── visualize.py
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+To run this project locally you need to have Python3 installed in your system.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* Pandas
-  ```
-  pip install pandas
-  ````
-* Scikit-learn
-  ```sh
-  pip install sklearn
-  ```
-* Matplotlib
-    ```
-    pip install matplotlib
-    ```
+* [Python3](https://www.python.org/)
+* [Jupyter Noteboook](https://jupyter.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Scikit-learn](https://scikit-learn.org)
+* [Matplotlib](https://matplotlib.org/)
+* [Numpy](https://numpy.org/)
+* [Seaborn](https://seaborn.pydata.org/)
+
+Install the above requirements by follow the steps below:
+
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/sharmas1ddharth/Iris-classification.git
    ```
 2. Install `requirements.txt`
    ```sh
    pip install -r requirements.txt
    ```
 
+After installing all the requirements type the following in **terminal**(Linux), **cmd/powershell**(Windows) to open project notebook in the jupyter-lab
+```sh
+jupyter-lab
+```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
@@ -222,9 +209,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Siddharth Sharma- [@sharmas1ddharth](https://twitter.com/sharmas1ddharth) - ssiddharth408@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/sharmas1ddharth/Iris-classification](https://github.com/sharmas1ddharth/Iris-classification)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -234,16 +221,16 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/sharmas1ddharth/Iris-classification.svg?style=for-the-badge
+[contributors-url]: https://github.com/sharmas1ddharth/Iris-classification/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sharmas1ddharth/Iris-classification.svg?style=for-the-badge
+[forks-url]: https://github.com/sharmas1ddharth/Iris-classification/network/members
+[stars-shield]: https://img.shields.io/github/stars/sharmas1ddharth/Iris-classification.svg?style=for-the-badge
+[stars-url]: https://github.com/sharmas1ddharth/Iris-classification/stargazers
+[issues-shield]: https://img.shields.io/github/issues/sharmas1ddharth/Iris-classification.svg?style=for-the-badge
+[issues-url]: https://github.com/sharmas1ddharth/Iris-classification/issues
+[license-shield]: https://img.shields.io/github/license/sharmas1ddharth/Iris-classification.svg?style=for-the-badge
+[license-url]: https://github.com/sharmas1ddharth/Iris-classification/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/sharmas1ddharth
 [product-screenshot]: images/screenshot.png
