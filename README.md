@@ -230,4 +230,4 @@ Project Link: [https://github.com/sharmas1ddharth/Iris-classification](https://g
 [license-url]: https://github.com/sharmas1ddharth/Iris-classification/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/sharmas1ddharth
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: other/screenshot.png
