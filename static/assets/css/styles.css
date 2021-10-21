@@ -1,0 +1,88 @@
+.iris-body {
+    text-align: center;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 0px;
+    border-color: var(--bs-blue);
+    border-right: 2px solid rgb(0,0,0);
+}
+
+.iris-div{
+    text-align: center;
+    margin-top: 4%;
+    width: 55%;
+    margin-right: 0%;
+    margin-left: 23%;
+    padding: 3%;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px rgb(91,93,95);
+    height: 75%;
+    border: 0px none rgb(33,37,41);
+}
+
+.pl-col{
+    height: 109.6px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgb(29,49,79);
+    border-width: 0.4px;
+    border-color: var(--bs-blue);
+    border-right: 1px solid rgb(101,98,98);
+}
+
+.para{
+    font-weight: bold;
+}
+
+.pw-col{
+    margin-bottom: 7%;
+    border-radius: 24px;
+    margin-right: 0px;
+    margin-left: 5px;
+    border-width: 0.4px;
+    border-color: var(--bs-blue);
+    border-right-style: none;
+}
+
+.sl-col{
+    border-radius: 0px;
+    border-width: 0.4px;
+    border-color: var(--bs-blue);
+    border-right: 1px solid rgb(101,98,98) ;
+}
+
+.sw-col{
+    border-radius: 24px;
+    margin-left: 5px;
+    border-width: 0.4px;
+    border-color: var(--bs-blue);
+    border-right-style: none;
+}
+
+.predict-button{
+    margin-top: 7%;
+    width: 25%;
+    height: 0%;
+    background: rgb(63,159,159);
+}
+
+.prediction-text{
+    text-align: center;
+    border-radius: 35px;
+    width: 56%;
+    padding: 4px;
+    margin-left: 23%;
+    margin-top: 1%;
+    box-shadow: 0px 0px 3px;
+    border: 0px none rgb(255, 255, 255);
+}
+
+.prediction-text-para{
+    margin-top: 12px;
+    width: 95%;
+    font-size: 170%;
+    color: rgb(123,125,128);
+}
+
+.foot{
+    margin-top: 4%;
+}

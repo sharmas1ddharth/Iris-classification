@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Iris Classification - Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/fonts/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/Footer-Basic.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/Navigation-with-Button.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/styles.css') }}">
+</head>
+
+<body class="text-center iris-body" style="">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button">
+        <div class="container">
+            <a class="navbar-brand" href="#">Iris Classification</a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+                <span class="navbar-text actions">
+                    <a class="btn btn-light action-button" role="button" href="#">Github Repo</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="text-center iris-div">
+        <div class="row">
+            <div class="col pl-col">
+                <p class="para">Petal length</p>
+                <input class="form-range" type="range" min="0" max="10" step="0.1" value="5.0"
+                       name="petal_length" oninput="petalengthvalue.innerText=this.value">
+                <p id="petalengthvalue">5.0</p>
+            </div>
+            <div class="col pw-col">
+                <p class="para">Petal width</p>
+                <input class="form-range" type="range" min="0" max="10" step="0.1"
+                       name="petal_width" value="5" oninput="petalwidthvalue.innerText=this.value">
+                <p id="petalwidthvalue">5.0</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col sl-col">
+                <p class="para">Sepal length</p>
+                <input class="form-range" type="range" min="0" max="10" step="0.1" value="5"
+                       name="sepal_length" oninput="sepallengthvalue.innerText=this.value">
+                <p id="sepallengthvalue">5.0</p>
+            </div>
+            <div class="col sw-col">
+                <p class="para">Sepal width</p>
+                <input class="form-range" type="range" name="sepal_width" value="5" min="0"
+                       max="10" step="0.5" oninput="sepalwidthvalue.innerText=this.value">
+                <p id="sepalwidthvalue">5.0</p>
+            </div>
+        </div>
+        <button class="btn btn-primary predict-button" type="button">Predict</button>
+    </div>
+    <div class="prediction-text">
+        <p class="prediction-text-para">The prediction will be shown here</p>
+    </div>
+    <footer class="footer-basic foot">
+        <div class="social">
+            <a href="#">
+                <i class="icon ion-social-linkedin-outline"></i>
+            </a>
+            <a href="#">
+                <i class="icon ion-social-github"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

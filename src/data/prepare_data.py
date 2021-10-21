@@ -1,2 +1,1 @@
-import pandas as pd
-
+# python file for data preparation
