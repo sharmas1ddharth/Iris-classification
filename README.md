@@ -34,7 +34,7 @@
     A Machine Learning Model that can classify the species of the Iris flower whether its Iris-Setosa, Iris-Virsicolour, Iris-Virginica
     <br />
     <br />
-    <a href="https://github.com/sharmas1ddharth/Iris-classification">View Demo</a>
+    <a href="https://iris-classification-p.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/sharmas1ddharth/Iris-classification/issues">Report Bug</a>
     ·
