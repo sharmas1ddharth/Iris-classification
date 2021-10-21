@@ -4,7 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Iris Classification - Project</title>
+    {% if prediction != "" %}
+        <title>Prediction Complete</title>
+    {% else %}
+        <title>Iris Classification - Project</title>
+    {% endif %}
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/fonts/ionicons.min.css') }}">
