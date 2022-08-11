@@ -21,12 +21,13 @@ def save_model(model):
     pickle.dump(model, open(f"../Models/{model_name}", 'wb'))
 
 
-def main():
-    train_data = pd.read_csv('../data/processed/train_data.csv')
+def main(path):
+    train_data = pd.read_csv(path)
     X, y = split_data(train_data)
     model = train_model(X, y)
     save_model(model)
 
 
 if __name__ == "__main__":
-    main()
+    path = "C:\\Users\\Siddharth Sharma\\Downloads\\iris-cmc\\train.csv"
+    main(path)
